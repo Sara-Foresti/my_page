@@ -1,17 +1,13 @@
-#home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+.main-title {
   text-align: center;
-  p {
-    margin-top: 1.5em;
+  h1 {
+    font-family: $headers-font;
+    font-size: 72px;
+    letter-spacing: 5px;
   }
-  a {
-    color: rgba(0,0,0,0.4);
-    font-weight: bold;
-    font-size: 16px;
+  h2 {
+    font-family: $body-font;
+    margin: 0;
+    // it'll be javascript typing, if possible to be done with one string only
   }
 }

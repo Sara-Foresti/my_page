@@ -3,17 +3,96 @@ title: Sara Foresti | Web Developer
 ---
 
 <div id="home">
-  <div class="main-title">
-    <h1>Sara Foresti</h1>
-    <h2>< Web Developer /></h2>
+  <!-- wrapper 1 -->
+  <div class="profile-wrapper text-center">
+    <div class="main-title">
+      <h1>Sara Foresti</h1>
+      <h2>< Web Developer /></h2>
+    </div>
+
+    <div class="introduction">
+      <div class="profile-pic">
+        <!-- flippin card tutorial! -->
+      </div>
+      <div class="profile-description">
+        <p>I'm a brand new full stack developer</p>
+      </div>
+    </div>
   </div>
 
-  <div class="introduction">
-    <div class="profile-pic">
-      <!-- flippin card tutorial! -->
+  <!-- wrapper 2 -->
+  <div class="present-wrapper text-center">
+    <div class="now-container">
+      <h2>WHAT I DO NOW</h2>
+      <p>I’ve recently graduated from Le Wagon, an intense 9 weeks coding bootcamp. I’m now looking forward to kick-start my web dev career. Would you like me to be part of your team? Ping me!</p>
     </div>
-    <div class="profile-description">
-      <p>I'm a brand new full stack developer</p>
+
+    <div class="skills-container text-center">
+      <h2>MY SKILLS</h2>
+      <ul>
+        <li>Ruby</li>
+        <li>Rails</li>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>SCSS</li>
+        <li>Bootstrap</li>
+        <li>PostgreSQL</li>
+        <li>JavaScript</li>
+        <li>Git</li>
+        <li>Heroku</li>
+        <li>OOP</li>
+        <li>MVC</li>
+      </ul>
+    </div>
+
+    <div class="apps-container text-center">
+      <h2>MY APPS</h2>
+      <h3>Made</h3>
+      <h3>Bikes on the go</h3>
     </div>
   </div>
+
+  <!-- wrapper 3 -->
+  <div class="past-wrapper text-center">
+    <div class="experience-container">
+      <h2>WHAT I DID BEFORE</h2>
+      <p>(and why have I changed)</p>
+      <h3>The Balloon Shop</h3>
+      <h3>ODU Movies</h3>
+      <h3>Lux Vide</h3>
+    </div>
+
+    <div class="education-container text-center">
+      <h2>MY STUDIES</h2>
+      <h3>Le Wagon</h3>
+      <h3>Master</h3>
+      <h3>Bachelor</h3>
+    </div>
+  </div>
+
+  <!-- wrapper 4 -->
+  <div class="hobbies-wrapper text-center">
+    <h2>FEW OF MY PASSIONS</h2>
+    <div class="hobbies-container">
+      <ul>
+        <li><h3>Cinema</h3></li>
+        <li><h3>Travel</h3></li>
+        <li><h3>Art</h3></li>
+        <li><h3>Design</h3></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- wrapper 5 -->
+  <div class="email-wrapper text-center">
+    <h3>Keep in touch! </h3>
+    <%= mail_to "sara.foresti@hotmail.com", "sara.foresti@hotmail.com" %>
+    <p><% link_to  "https://github.com/Sara-Foresti", target: "_blank" do %>
+      <i class="fa fa-github"></i>
+    <% end %>
+    <% link_to "https://www.linkedin.com/in/saraforesti8589/", target: "_blank" do %>
+      <i class="fa fa-linkedin-square"></i>
+    <% end %></p>
+  </div>
+
 </div>

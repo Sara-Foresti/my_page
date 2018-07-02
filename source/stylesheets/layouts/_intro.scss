@@ -1,0 +1,41 @@
+.intro-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/564x/4f/8c/92/4f8c9281e9cc1c375e663da80ae08752.jpg");
+  // linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(69,68,68,0.8) 100%),
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 32px;
+  h1 {
+    font-family: $headers-font;
+    color: rgba(70, 97, 145, 0.8);
+    font-size: 120px;
+    letter-spacing: 10px;
+    margin: 0;
+  }
+  h2 {
+    font-family: $body-font;
+    margin: 0;
+    font-size: 32px;
+    // it'll be javascript typing, if possible to be done with one string only
+  }
+}
+
+.arrow-down {
+  position: absolute;
+  bottom: 20px;
+  i {
+    font-size: 36px;
+  };
+  p {
+      margin: 0;
+  }
+}

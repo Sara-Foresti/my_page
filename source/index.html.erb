@@ -3,20 +3,26 @@ title: Sara Foresti | Web Developer
 ---
 
 <div id="home">
-  <!-- wrapper 1 -->
-  <div class="profile-wrapper text-center" id="profile">
+  <!-- wrapper 0 -->
+  <div class="intro-wrapper text-center" id="intro">
     <div class="main-title">
       <h1>I'm Sara</h1>
+      <!-- to be changed with JS typing effect -->
       <h2>< Web Developer /></h2>
     </div>
+    <div class="arrow-down">
+      <p>scroll down to discover more</p>
+      <i class="fa fa-angle-down"></i>
+    </div>
+  </div>
 
-    <div class="introduction">
-      <div class="profile-description">
-        <p>I'm a full stack web developer.<br>Passionate about building things,<br>I've learnt to <strong>code</strong><br>to finally give shape to my creativity.<br><i class="fa fa-map-marker"></i> Current location: London, UK.</p>
-      </div>
-      <div class="profile-image" style="background-image: url(<%= image_path 'profile.jpg'%>)">
-      <!-- flippin card tutorial! -->
-      </div>
+  <!-- wrapper 1 -->
+  <div class="profile-wrapper">
+    <div class="profile-description">
+      <p>I'm a full stack web developer.<br>Passionate about building things,<br>I've learnt to <strong>code</strong><br>to finally give shape to my creativity.<br><i class="fa fa-map-marker"></i> Current location: London, UK.</p>
+    </div>
+    <div class="profile-image" style="background-image: url(<%= image_path 'profile.jpg'%>)">
+    <!-- flippin card tutorial! -->
     </div>
   </div>
 

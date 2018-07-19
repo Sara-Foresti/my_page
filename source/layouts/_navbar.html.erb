@@ -1,9 +1,13 @@
 <div class="navbar">
-  <% link_to '#intro', :relative => true do %>
-      <%= image_tag 'sflogo.png', class: 'logo' %>
-  <% end %>
+  <div class="logo-div">
+    <% link_to '#intro' do %>
+        <%= image_tag 'sflogo.png', class: 'logo' %>
+    <% end %>
+  </div>
 
   <div class="navbar-links">
-
+    <%= link_to "Contacts",  '#email'%>
+    <%= link_to "Work",  '#work'%>
+    <%= link_to "About me", '#about' %>
   </div>
 </div>

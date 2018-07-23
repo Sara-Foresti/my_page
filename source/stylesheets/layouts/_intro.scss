@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background-image: url("https://i.pinimg.com/564x/4f/8c/92/4f8c9281e9cc1c375e663da80ae08752.jpg");
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
   // linear-gradient(-225deg, rgba(0,0,0,0.2) 0%, rgba(69,68,68,0.8) 100%),
   background-size: cover;
   color: white;
@@ -24,7 +24,7 @@
   h2 {
     font-family: $body-font;
     margin: 0;
-    font-size: 32px;
+    font-size: 45px;
     // it'll be javascript typing, if possible to be done with one string only
   }
 }

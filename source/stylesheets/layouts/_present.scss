@@ -1,7 +1,8 @@
 .present-wrapper {
-  background-color: $blue;
-  padding: 30px;
+  background: linear-gradient(to right, #2B32B2, #1488CC);
+  padding: 100px 30px 30px 30px;
   color: white;
+  min-height: 100vh;
   h2 {
     font-size: 60px;
   }

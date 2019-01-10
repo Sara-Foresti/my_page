@@ -4,9 +4,10 @@
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-  background: url("https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/11880545_828080697310549_6234290708931462348_n.jpg?_nc_cat=0&oh=2b6938f6bcc0cbc1e5c097c2d48291f5&oe=5BC5B1E2");
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to right, #6f76ff, #91EAE4);
+  // background: url("https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/11880545_828080697310549_6234290708931462348_n.jpg?_nc_cat=0&oh=2b6938f6bcc0cbc1e5c097c2d48291f5&oe=5BC5B1E2");
+  // background-size: cover;
+  // background-position: center;
   color: white;
   position: relative;
 }
